@@ -1,0 +1,152 @@
+.meet_images_comand{
+    margin-top: -80px;
+}
+#meet{
+    padding: 100px 10%;
+
+}
+.meet_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.meet_left{
+    width: 50%;
+}
+.meet_left h1{
+    font-size: 38px;
+    color: #2a3d53;
+    position: relative;
+}
+.meet_left h1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    width: 350px;
+    height: 4px;
+    background: #E6F1F7;
+
+}
+.meet_right{
+    width: 50%;
+}
+.meet_right h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.meet_right  p{
+    line-height: 28px;
+}
+.meet_images_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.meet_sub{
+    width: 320px;
+    flex-grow: 1;
+}
+.meet_images_main img{
+    width: 100%;
+}
+.meet_images_txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.meet_images_txt h3{
+    font-size: 20px;
+    color: #132573;
+    font-weight: 700;
+
+}
+.meet_sub small{
+    font-size: 12px ;
+    font-weight: 700;
+}
+.meet_brands{
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+    color: #132573;
+}
+
+.reviews_carousel{
+    background: #FFECEC;
+}
+.rv_head h1{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.rv_head p i{
+    font-size: 30px;
+}
+.rv_content i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.rv_gary {
+    margin-top: 10px;
+}
+.rv_gary h4 i{
+    font-size: 14px;
+}
+.rv_gary small{
+    font-weight: 100;
+}
+
+
+@media(max-width:1400px){
+    #meet{
+        padding: 100px 3%;
+    }
+}
+@media(max-width:1060px){
+   .meet_main{
+        display: grid;
+        margin-top: 65px;
+   } 
+   .meet_left{
+        width: 100%;
+   }
+   .meet_left h1{
+        margin-bottom: 25px;
+        font-size: 25px;
+        
+   }
+   .meet_left h1::before{
+        width: 230px;
+   }
+   .meet_right{
+        width: 100%;
+   }
+   .meet_right h3{
+    font-size:15px;
+   }
+   .meet_right h3, .meet_right p{
+    text-align: justify;
+   }
+   .rv_content i{
+    font-size: 24px !important;
+   }
+   .our_doctor_footer{
+    margin-top: 60px;
+   }
+}
+
+@media(max-width:1060px){
+    #meet{
+        margin-top: -30px;
+    }
+    .meet_left{
+        margin-bottom: 0px;
+    }
+    .meet_right h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,36 @@
+.image_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.img_left_txt{
+    width: 50%;
+}
+.img_left_txt p{
+    text-align: justify;
+}
+.img_right{
+    width: 50%;
+}
+.img_right img{
+    width: 100%;
+}
+
+@media(max-width:1400px){
+    #image_sec{
+        padding: 100px 3% !important;
+    }
+}
+@media(max-width:1060px){
+    .img_left_txt{
+        width: 100%;
+    }
+    .img_right{
+        width: 100%;
+    }
+    .image_main{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,13 @@
+.reno_txt_2 ol{
+    margin-bottom: 25px !important;
+}
+
+.reno_rating{
+    margin-top: -150px;
+}
+
+@media(max-width:1400px){
+    .reno_rating{
+        margin-top: -100px;
+    }
+}

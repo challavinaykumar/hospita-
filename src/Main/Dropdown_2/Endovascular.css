@@ -1,0 +1,44 @@
+.endo_vas{
+    margin-top: -100px;
+}
+.endo_txt_main h6{
+    margin-bottom: 30px;
+}
+.endo_txt .endo_it{
+    display: block;
+    margin-bottom: 20px;
+}
+.endo_txt{
+    margin-bottom: 40px;
+}
+.endo_txt_2 p{
+    margin-bottom: 40px;
+}
+.endo_txt_2 ol li{
+    margin-bottom: 15px;
+    list-style-type: decimal ;
+}
+.endo_txt_2{
+    margin-bottom: 40px;
+}
+.endo_txt_3 span{
+    display: block;
+    margin-bottom: 30px;
+}
+.endo_rating{
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+@media(max-width:1400px){
+    .endo_rating{
+        margin-top: -50px;
+    }
+}
+
+@media(max-width:1060px){
+    .endo_rating{
+        margin-top: -70px;
+        margin-bottom: 80px;
+    }
+}

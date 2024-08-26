@@ -1,0 +1,159 @@
+.get_care {
+    position: relative;
+}
+.get_care img{
+    width: 100%;
+    margin-top:90px;
+    object-fit: contain;
+}
+.get_care_container{
+    background: #F5F5F5;
+}
+.get_contain_main{
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    right: 0;
+}
+.get_txt{
+    padding: 30px 10% 15px;
+}
+.get_txt h2{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.get_txt h1{
+    font-size: 54px;
+    color: #2A3D53;
+}
+.get_appoint{
+    padding: 15px 10%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.get_appoint a i{
+    font-size: 13px;
+}
+.get_appoint  h4{
+    font-size: 18px;
+    color: #132573;
+}
+.get_appoint  h4 .i{
+    font-size: 24px;
+    margin-top: -4px;
+}
+.req_btn{
+    background:#fff;
+    color: #132573;
+    font-weight: 700;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+.req_btn:hover{
+    background: #132573;
+    color: #fff;
+}
+.get_icons_main{
+    display: grid;
+    justify-content: end;
+    padding: 0 10%;
+}
+.get_icons{
+    width: 180px;
+    height: 50px;
+    background: #2A3D53;
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+.get_icons_sub{
+    width: 100%;
+    height: 100%;
+}
+    
+
+
+.get_icons i{
+    color: #fff;
+    font-size: 18px;
+}
+.get_icons i:hover{
+    color: #FB9899;
+    cursor: pointer;
+}
+
+
+@media(max-width:1400px){
+    .get_txt{
+        padding: 30px 3% 15px;
+    }
+    .get_appoint{
+        padding: 15px 3%;
+    }
+}
+@media(max-width:1060px){
+    
+    .get_care img{
+        margin-top: 70px;
+    }
+    .get_txt{
+        padding: 15px 3% 15px;
+    }
+    .get_txt h2{
+        font-size: 14px !important;
+        margin-bottom: 15px;
+        
+    }
+    .get_txt h1{
+        font-size: 32px !important;
+    }
+    .get_contain_main{
+        position: absolute;
+        top: 80%;
+        bottom: 0%;
+        left: 0;
+        right: 0;
+    }
+    .get_appoint  h4{
+        font-size: 14px !important;
+    }
+    .get_icons_main{
+        padding: 0 3%;
+    }
+    .get_icons{
+        width: 150px;
+        height: 40px;
+        margin-bottom: 3px;
+        margin-top: -20px;
+    }
+    .get_icons i{
+        font-size: 13px;
+    }
+
+ 
+}
+@media(max-width:768px){
+    .get_container_sub{
+        position: relative;
+    }
+    .get_appoint h4{
+        position: absolute;
+        top: 0;
+        padding-top: 15px;
+        right: 3%;
+    }
+    .get_appoint{
+        border-top: none ;
+    }
+    .req_btn{
+        margin-top: -20px;
+        font-size: 12px;
+    }
+    .req_btn .i{
+        font-size: 2px !important;
+    }
+    .get_icons{
+        display: none;
+    }
+  
+
+}

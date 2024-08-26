@@ -1,0 +1,11 @@
+.pher_ser_3{
+    row-gap: 60px !important;
+}
+.ser_card_3{
+    height: 200px;
+}
+@media(max-width:350px){
+    .ser_card_3{
+        height: auto;
+    }
+}
