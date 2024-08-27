@@ -2,6 +2,7 @@ import React from 'react';
 import './Mainfooter.css'
 import { FaHandHoldingMedical } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import logo from "../Images/hospital_logo.png";
 
 
 const Mainfooter = () => {
@@ -12,7 +13,7 @@ const Mainfooter = () => {
                 <div className="main_foot">
                     <div className="foot_card">
                         <div className="foot_image">
-                            <img src="https://salute.vamtam.com/wp-content/uploads/2020/06/logo-main.svg" alt="" />
+                            <img src={logo} alt="" width="170px"/>
                         </div>
                         <p>We are a family centered practice that incorporates compassion and dedication to promote your well being.</p>
                         <h4><FaHandHoldingMedical className='i'/> <span>+91 733 732 1806</span></h4>

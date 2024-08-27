@@ -1,6 +1,7 @@
 import React from 'react';
 import './Homefooter.css'
 import { Link } from 'react-router-dom';
+import logo from "../Images/hospital_logo.png";
 
 const Homefooter = () => {
     return (
@@ -12,7 +13,7 @@ const Homefooter = () => {
                     </div>
                     <div className="h_rate_main" data-aos="fade-up">
                         <div className="h_rate ">
-                            <img src="https://salute.vamtam.com/wp-content/uploads/2020/06/logo-main.svg" alt="" />
+                            <img src={logo} alt="" width="160px" height="43px"/>
                             <div className="h_rating_main ">
                                 <div className="">
                                 <i class="fa-solid fa-star" style={{color: "#FF8D8D"}}></i>
