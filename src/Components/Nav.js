@@ -14,6 +14,7 @@ const Nav = () => {
         bar.current.classList.toggle('visible')
         menu_style.current.classList.toggle('fa-x')
     }
+    const imageSize = useRef()
 
     window.onscroll=()=>{
         if(window.scrollY>0){
@@ -21,19 +22,22 @@ const Nav = () => {
             head_scroll.current.style.transition = '0.3s'
             drop_sub_1.current.classList.add('drop_add')
             drop_sub_2.current.classList.add('drop_add')
+            imageSize.current.classList.add('imageSize')
 
         }
         else{
             head_scroll.current.style.background = 'none'
             drop_sub_1.current.classList.remove('drop_add')
             drop_sub_2.current.classList.remove('drop_add')
+            imageSize.current.classList.remove('imageSize')
+
         }
     }
   return (
     <div>
       <header className="d-flex align-items-center justify-content-between" ref={head_scroll}>
         <div className="">
-          <img className="logo_img" src={nav_logo} alt="" />
+          <img className="logo_img" src={nav_logo} alt="" ref={imageSize}/>
         </div>
         <div className="d-flex align-items-center gap-4">
           <ul className="nav_links " ref={bar}>
