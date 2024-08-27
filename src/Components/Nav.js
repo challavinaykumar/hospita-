@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import './Nav.css'
+import nav_logo from '../Images/hospital_logo.png'
+
 
 const Nav = () => {
     const bar = useRef()
@@ -31,7 +33,7 @@ const Nav = () => {
     <div>
       <header className="d-flex align-items-center justify-content-between" ref={head_scroll}>
         <div className="">
-          <img className="logo_img" src="https://salute.vamtam.com/wp-content/uploads/2020/06/logo-main.svg" alt="" />
+          <img className="logo_img" src={nav_logo} alt="" />
         </div>
         <div className="d-flex align-items-center gap-4">
           <ul className="nav_links " ref={bar}>

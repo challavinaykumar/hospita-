@@ -13,9 +13,9 @@ header{
     font-size: 22px;
     color: #132573;
 }
-/* .logo_img{
-    width: 100px;
-} */
+.logo_img{
+    width: 120px;
+ }
 .nav_links{
     display: flex;
     align-items: center;

@@ -18,6 +18,7 @@ import Endovascular from './Main/Dropdown_2/Endovascular';
 import Cerebrovascular from './Main/Dropdown_2/Cerebrovascular';
 import Renovascular from './Main/Dropdown_2/Renovascular';
 import Cardio from './Main/Dropdown_2/Cardio';
+import ScrollToTop from './Main/Scroll';
 // import Cardiovascular from './Main/Dropdown_2/Cardiovacular';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
+      <ScrollToTop/>
       <Nav/>
       <Routes>
         <Route path='/' element={<Home/>}/>
