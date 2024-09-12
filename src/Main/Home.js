@@ -101,13 +101,13 @@ Apart from regular surgeries, we heaved complicated cases which kept defying the
                 src="https://c-care.com/mu/wp-content/uploads/sites/2/2022/05/Cardiology-top-paragraph.jpg"
                 alt=""
               />
-              <h1>Cardiology</h1>
+              <h1>Cardio Vascular</h1>
             </div>
           </div>
         </div>
       </section>
-
-      <section className="asian_vas">
+     
+      <section className="asian_vas" style={{display:"flex",justifyContent:"center"}}>
         <div className="d-flex about_main abt_main_2 gap-4">
           <div className="abt_txt abt_txt_2">
             {/* <p>About</p> */}
@@ -205,13 +205,10 @@ Apart from regular surgeries, we heaved complicated cases which kept defying the
             </div>
             <div className="abt_lrm abt_lrm_3" data-aos="fade-up">
               <p>
-              We stand by our word when we proclaim our proficiency in handling over 20,000 surgeries comprising various complications, concerns and a broad spectrum of rejected cases of other prominent hospitals.
+              We stand by our word when we proclaim our proficiency in handling over <b> 20,000</b> successful surgeries comprising various complications, concerns and a broad spectrum of rejected cases of other prominent hospitals.
               </p>
 
               <ul>
-                <li>
-                Varicose Veins
-                </li>
                 <li>
                 Varicose Veins
                 </li>
