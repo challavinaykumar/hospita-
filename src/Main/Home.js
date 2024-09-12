@@ -7,7 +7,6 @@ import Homefooter from "./Homefooter";
 import Rating from "./Dropdown/Rating";
 import Insurance from "./Insurance";
 import Asian from "../Images/AsianVascularHospitals.jpg"
-import cathLab from "../Images/Cathlab.jpg"
 import praveen from "../Images/Dr G V Praveen Kumar.jpg"
 import { Link } from "react-router-dom";
 import narayana from '../Images/narayana.jpeg'
