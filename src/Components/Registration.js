@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Registration.css'
 import Barheading from './Barheading';
-import registration_image from '../Images/registration.jpeg'
 import Heading from './Heading';
 import Footer from './Footer';
 
@@ -13,7 +12,7 @@ const Registration = () => {
     // const small ='Registration/Legal Cover'
     const txt = ' Lorem ipsum, dolor sit amet consectetur adipisicing elit.'
 
-    const [legal_data,setlegal_data] = useState([
+    const legal_data = [
         {
             heading:'Society Registration Number',
             txt1:'No.123 of 1988 registered under the Andhra Pradesh (Telangana Areas) Public Societies Registration Act. 1350 Fasli (Act I of 1350 F) dated January 21, 1988.',
@@ -56,7 +55,7 @@ const Registration = () => {
             txt1:'36752219098 Dt: 2nd July, 2012',
             
         }
-    ])
+    ]
     return (
         <div >
             <div className="">

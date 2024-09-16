@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Projects.css'
 import Footer from './Footer';
 import Barheading from './Barheading';
 import Heading from './Heading';
 
 const Projects = () => {
-    const [regdata,setregdata] = useState([
+    const  regdata = [
         {
             image:'https://mari-india.org/wp-content/uploads/2024/08/Untitled-design-70-1024x575.jpg',
             head:'Farmers Producers Company Limited (FPOs)',
@@ -113,7 +113,7 @@ const Projects = () => {
         },
         
         
-    ])
+    ]
     const bar_head = "Projects"
     const bar_image = 'https://static.vecteezy.com/system/resources/previews/041/468/054/non_2x/hands-of-poor-people-asking-for-food-from-volunteers-helping-concept-of-food-donation-free-photo.jpg'
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Ourorganization.css'
 import Barheading from './Barheading';
 import our_organize from '../Images/our_organize.jpeg'
@@ -18,7 +18,6 @@ import Ramarao from '../Images/K.Ramarao.jpeg'
 import Footer from './Footer';
 
 
-
 const Ourorganization = () => {
     const bar_image = our_organize
 
@@ -35,7 +34,7 @@ const Ourorganization = () => {
     const bar_head = 'Our Organization'
 
 
-    const [award_data,setaward_data] = useState([
+    const award_data  = [
         {
         image:award_cup,
         year:1993,
@@ -85,9 +84,10 @@ const Ourorganization = () => {
             text_2:'Environment Awareness Campaign'
         }
             
-])
+]
 
-    const [board_mem,setboard_mem] = useState([{
+
+    const board_mem = [{
         image:arundati,
         name:'G. Arundathi',
         role:'President',
@@ -129,7 +129,8 @@ const Ourorganization = () => {
         role:'Treasurer',
         txt:'He brings over 35 years of comprehensive experience in the development sector, enhanced by a robust academic foundation in Commerce and financial management.',
     },
-])
+]
+
     return (
         <div>
             {/* <div className=""></div> */}

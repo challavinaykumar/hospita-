@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import Header from '../Headers/Header';
+import React from 'react';
+// import Header from '../Headers/Header';
 import './Home.css'
 import Heading from './Heading';
 import img1 from '../Images/pixelcut-export (1).png'
@@ -22,7 +22,7 @@ const Home = () => {
     const maxCounts = [16, 45, 26,10]; // Maximum count values for each card
     const count_names =[ 'Active Projects','Targets','Donations','Themetic Focus']
 
-    const [data,setdata] = useState(100)
+    // const data = 100
 
     // const abc =(e)=>{
     //     setdata(e.target.value)
@@ -100,7 +100,7 @@ const Home = () => {
                         <div className="help_card">
                             <div className="help_card_img">
                                 <img src="http://www.nicdarkthemes.com/themes/donation/wp/demo/charity/wp-content/uploads/sites/2/2020/06/cause1-1024x575.jpg" alt="" />
-                                <a href="" className='donate_btn donate_btn_2'>DONATE NOW</a>
+                                <a href="/" className='donate_btn donate_btn_2'>DONATE NOW</a>
                             </div>
                             <div className="help_card_txt">
                                 <h3>New Sustainability</h3>
@@ -110,13 +110,13 @@ const Home = () => {
                                     <h6>GOAL :<span> 1340 $</span></h6>
                                     <h6>RAISED :<span> 925 $</span></h6>
                                 </div>
-                                <a href="" className='donate_btn donate_btn_2'>VIEW DEATILS</a>
+                                <a href="/" className='donate_btn donate_btn_2'>VIEW DEATILS</a>
                             </div>
                         </div>
                         <div className="help_card">
                             <div className="help_card_img">
                                 <img src="http://www.nicdarkthemes.com/themes/donation/wp/demo/charity/wp-content/uploads/sites/2/2020/06/cause2-1024x575.jpg" alt="" />
-                                <a href="" className='donate_btn donate_btn_2 donate_btn_3'>DONATE NOW</a>
+                                <a href="/" className='donate_btn donate_btn_2 donate_btn_3'>DONATE NOW</a>
                             </div>
                             <div className="help_card_txt">
                                 <h3>Free Volunteering</h3>
@@ -126,14 +126,14 @@ const Home = () => {
                                     <h6>GOAL :<span> 1000 $</span></h6>
                                     <h6>RAISED :<span> 668 $</span></h6>
                                 </div>
-                                <a href="" className='donate_btn donate_btn_2 donate_btn_3'>VIEW DEATILS</a>
+                                <a href="/" className='donate_btn donate_btn_2 donate_btn_3'>VIEW DEATILS</a>
                             </div>
                         </div>
 
                         <div className="help_card">
                             <div className="help_card_img">
                                 <img src="https://www.padovaoggi.it/~media/horizontal-hi/58809977070701/africa-bambini-2.jpg" alt="" />
-                                <a href="" className='donate_btn '>DONATE NOW</a>
+                                <a href="/" className='donate_btn '>DONATE NOW</a>
                             </div>
                             <div className="help_card_txt">
                                 <h3>Free Volunteering</h3>
@@ -143,7 +143,7 @@ const Home = () => {
                                     <h6>GOAL :<span> 1260 $</span></h6>
                                     <h6>RAISED :<span> 857 $</span></h6>
                                 </div>
-                                <a href="" className='donate_btn '>VIEW DEATILS</a>
+                                <a href="/" className='donate_btn '>VIEW DEATILS</a>
                             </div>
                         </div>
                     </div>
