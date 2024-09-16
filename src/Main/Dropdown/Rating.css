@@ -1,0 +1,131 @@
+
+#Reviews{
+    margin-bottom: -70px;
+}
+.rv_head{
+    margin-bottom: -30px;
+}
+.rv_head h1{
+    text-align: center;
+    font-size: 38px !important;
+    position: relative;
+    display: inline-flex;
+    color: #132573;
+}
+.rv_head h1::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10%;
+    width: 60px;
+    height: 3px;
+    background: #132573;
+
+}
+.review_main{
+    align-items: center;
+    
+}
+.rev_left{
+    width: 300px;
+    text-align: center;
+}
+.rev_left h3{
+    font-size: 28px;
+
+}
+.rev_left_stars i{
+    font-size: 24px;
+    color: #F6BB06;
+}
+
+.rv_txt{
+    margin-top: 10px;
+}
+
+.rv_txt p{
+    font-size: 14px;
+}
+.rv_txt p span{
+    font-weight: 700;
+}
+.rv_txt img{
+    width: 100px;
+}
+
+
+.silder_cards_main{
+    display: flex;
+    align-items: center;
+    
+}
+.slider_main{
+    width: 80%;
+    /* align-items: center; */
+}
+.slider_card{
+    width: 300px !important;
+    height: 200px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    /* gap: 20px; */
+    
+    /* height: 00px !important;  */
+}
+.slider_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.slider_img img{
+    width: 40px;
+}
+.slider_img_2{
+    width: 30px;
+}
+.slider_date h5{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: -5px;
+
+}
+.slider_date small{
+    font-size: 12px
+}
+.slider_brands i{
+    font-size: 16px;
+    color: #F6BB06;
+}
+.slider_cnt{
+    margin-top: 10px;
+    font-size: 14px;
+}
+@media(max-width:1300px){
+    .review_main{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    #Reviews{
+        margin-top: 10px;
+    }
+}
+@media(max-width:1060px){
+    .rv_head h1{
+        font-size: 30px !important;
+    }
+}
+@media(max-width:768px){
+    .slider{
+        text-align: center;
+    }
+}
+@media(max-width:350px){
+    .slider_card{
+        width: 240px !important;
+        overflow-y: hidden;
+    }
+}

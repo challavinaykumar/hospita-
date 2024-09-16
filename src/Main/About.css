@@ -1,0 +1,270 @@
+.about_main{
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 60px;
+}
+.about_image{
+    position: relative;
+}
+.about_img_1{
+    width: 600px;
+    height: 800px;
+}
+.about_img_1{
+    object-fit: fill ;
+}
+.about_image_card{
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+    background: #fff;
+    position: absolute;
+    right: -20%;
+    bottom: -9%;
+}
+.about_image_card h3{
+    font-size: 20px;
+    text-decoration: underline !important;
+    margin-bottom: 25px;
+    color: #FF8D8D;
+     
+}
+.about_image_card h2{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.about_image_card h1{
+    font-size: 28px;
+    text-align: center;
+}
+.about_img_2{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+
+}
+.about_txt .about_txt_1{
+    width: 390px;
+    margin-bottom: 50px;
+}
+.about_txt .about_txt_1 h1{
+    font-size: 38px;
+    margin-bottom: 30px;
+    
+}
+.about_txt .about_txt_1 h4{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bolder !important;
+}
+.about_txt_2{
+    padding-left: 80px;
+}
+.team{
+    width: 100%;
+    height: 60vh;
+    background: url(../Images/AVH_Doctors_Collage_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    margin-bottom: 120px;
+}
+.team_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.team_head h1{
+    font-size: 140px;
+    margin-top: 160px;
+    /* color: rgb(236, 236, 236); */
+    /* opacity: 1; */
+    /* color: ; */
+    /* color: #000; */
+}
+.team_names_main{
+    background-color: #fff;
+    padding: 40px 30px;
+    justify-content: space-around;
+    /* align-items: center; */
+    position: absolute;
+    gap: 10px;
+    top: 75%;
+    left: 10%;
+    right: 10%;
+    z-index: 10;
+}
+
+.names{
+    margin-bottom: 30px !important;
+    min-height: 110px;
+}
+.names h1{
+    font-size: 18px;
+    color: #132573;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.names p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.about_image_card_2{
+    padding: 0;
+}
+
+.abt_ins{
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+.abt_sec{
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+#About{
+    padding: 80px 10% 110px;
+}
+
+@media(max-width:1400px){
+    .team_names_main{
+        
+        left: 3%;
+        right: 3%;
+    }
+    #About{
+        padding: 80px 3%;
+    }
+}
+@media(max-width:1060px){
+    #About{
+        padding: 0px 10% 80px;
+        margin-top: -60px;
+    }
+    .about_main{
+        flex-wrap: wrap;
+    }
+    .about_image{
+        width: 100%;
+    }
+    .about_img_1{
+        width: 100% !important;
+        flex-grow: 1;
+        object-fit: cover;
+    }
+    .about_image_card{
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 500px !important;
+        height: 200px;
+    }
+
+    .about_txt_1{
+        width: 100% !important;
+        margin-bottom:20px !important;
+    }
+    .about_txt_1 h1{
+        font-size: 30px !important;
+        margin-bottom: 5px !important;
+
+    }
+    .about_txt_1 h4{
+        font-size: 18px !important;
+    }
+    .about_txt_2{
+        padding-left: 0 !important;
+    }
+    .about_txt_2 p{
+        text-align: justify;
+    }
+    .team_head h1{
+        font-size: 30px;
+        margin-top: 150px;
+    }
+    .team_names_main{
+        gap: 10px !important;
+        flex-wrap: wrap;
+    }
+    .about_image_card_2{
+        width: 300px  !important;
+        height: 300px !important;
+        background: #fff;
+        position: absolute;
+    }
+    /* #About{
+        margin-top: -100px;
+    } */
+    .abt_sec{
+        padding-top: 80px;
+        margin-bottom: 20px;
+    }
+     .abt_ins{
+        margin-top: -70px;
+        margin-bottom: 50px;
+
+     }
+     .team{
+        margin-bottom: 230px;
+    }
+    .Contact_footer{
+        margin-top: -20px;
+    }
+}
+/* @media(max-width:1060px){
+
+} */
+ @media(max-width:872px){
+    .names{
+        min-height: auto;
+    }
+ }
+@media(max-width:645px){
+    #About{
+        padding: 150px 10% 70px;
+        margin-top: 0px;
+    }
+    /* .abt_sec{
+        margin-top: -60px;
+     } */
+}
+@media(max-width:580px){
+    .team_names_main{
+        justify-content:  flex-start !important;
+        padding: 40px 30px 10px;
+    }
+
+}
+@media(max-width:500px){
+    .about_image_card{
+        width: 100% !important;
+    }
+    .team_names_main{
+        justify-content:  flex-start !important;
+        padding: 40px 30px 10px;
+    }
+    .about_image_card{
+        height: 270px;
+    }
+    .about_txt{
+        margin-top: -25px;
+    }
+ 
+
+}
+
+@media(max-width:435px){
+    .team{
+        margin-bottom: 410px !important;
+    }
+}
+
+@media(max-width:335px){
+    .about_txt_1{
+        margin-top: 25px;
+    }
+}

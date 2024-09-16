@@ -1,0 +1,28 @@
+.surgeries_main{
+    /* background: blue; */
+    /* background: url(/src/Images/pixelcut-export\ \(1\).jpeg); */
+    /* background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover; */
+    background: #f9f5f5;
+    /* background: #F9F9F9; */
+    /* height: 100px; */
+    padding: 25px 0;
+}
+.surgeries_heading h5{
+
+     font-size: 32px;
+     font-weight: 700;
+     color: #CF0000;
+     /* color: aliceblue; */
+
+}
+/* .surgeries_heading span{
+
+} */
+
+@media(max-width:1060px){
+    .surgeries_heading h5{
+        font-size: 24px;
+    }
+}

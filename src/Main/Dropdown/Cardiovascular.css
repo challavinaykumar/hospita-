@@ -1,0 +1,65 @@
+#Cardiovacular{
+    margin-top: -60px;
+}
+.cardio_head h1{
+    padding: 20px 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #132573;
+    margin-bottom: -10px;
+}
+.cardio_head p{
+    text-align: justify;
+}
+.pher_services_4{
+    margin-top: -140px !important;
+}
+.Cardiorating{
+    margin-top: -50px;
+}
+.Cardio_footer{
+    margin-top: 0px !important;
+}
+
+@media(max-width:1400px){
+    .Cardiorating{
+        margin-top: 0px;
+    }
+    #Cardiovacular{
+        padding: 80px 3% ;
+    }
+    /* .Cardio_footer{
+        margin-top: -80px !important;
+    } */
+}
+
+@media(max-width:1060px){
+    #Cardiovacular{
+        padding: 65px 3% ;
+        margin-top: -50px;
+    }
+    .cardio_head h1{
+        font-size: 28px;
+        margin-bottom: -5px;
+    }
+    /* .Cardiorating{
+        margin-top: -100px;
+    } */
+    .Cardio_footer{
+        margin-top: 60px !important;
+    }
+    .cardio_count{
+        margin-top: -40px;
+    }
+
+}
+@media(max-width:768px){
+    .pher_ser_main_head{
+        text-align: start;
+    }
+}
+@media(max-width:350px){
+    .ser_card_2{
+        height: auto;
+    }
+}

@@ -1,0 +1,171 @@
+#Peripheral{
+    margin-top: -40px;
+}
+ .sur_head_page{
+    padding-top: 120px;
+    
+ }
+ #pher_services{
+    margin-top: -80px;
+ }
+.pher_about{
+    width: 100% ;
+    display: flex;
+    gap: 80px !important;   
+    justify-content: space-between !important;
+    /* align-items: center; */
+}
+.pher_txt{
+    width: 50%;
+}
+.pher_txt p{
+    line-height: 35px;
+    font-size: 20px;
+}
+.pher_image{
+    width: 50%;
+}
+.pher_image img{
+    width: 100%;
+}
+.pher_txt h1{
+    font-size: 28px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    color: #132573;
+
+
+}
+/* .pher_txt h1::before{
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: #C5D7E0;
+
+
+} */
+.Pher_txt_2{
+    margin-bottom: 50px;
+}
+.pher_txt p{
+    text-align: justify;
+}
+.pher_ser_main h1{
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.pher_ser_main_head{
+    text-align: center;
+    margin-bottom: 40px !important;
+    display: inline-flex;
+    font-size: 22px;
+    color: #132573;
+
+}
+/* .pher_ser_main_head::before{
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: #C5D7E0;
+} */
+.ser_card{
+    width: 350px;
+    min-height: 200px;
+    padding: 25px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-right: 5px solid rgba(0,0,0,0.1);
+    border-bottom: 5px solid rgba(0,0,0,0.1);
+
+}
+.ser_card:hover{
+    border: 1px solid #1325739c;
+    border-right: 5px solid #1325739c;
+    border-bottom: 5px solid #1325739c;
+    transition: 0.3s;
+}
+.ser_card h1{
+    font-size: 20px !important;
+    margin-bottom: 25px;
+}
+.ser_card p{
+    font-size: 16px;
+}
+.pher_ser{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.ser_card{
+    flex-grow: 1;
+    
+}
+.ser_card_2{
+    height: 250px;
+    margin-top: -25px;
+}
+.pher_services_2{
+    margin-top: -100px !important;
+}
+.pher_ser_main_head_2{
+    margin-bottom: 70px !important;
+}
+
+@media(max-width:1400px){
+    .sur_head_page{
+        margin-bottom: 20px;
+     }
+    #Peripheral{
+        padding: 80px 3% ;
+    }
+    .pher_services_2{
+        padding: 100px 3%;
+
+    }
+}
+@media(max-width:1200px){
+    .pher_txt p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1060px){
+    .pher_about{
+        flex-wrap: wrap;
+    }
+    .pher_image{
+        width: 100%;
+    }
+    .pher_txt{
+        width: 100%;
+        margin-top: -20px;
+    }
+    #pher_services{
+        margin-top: -120px;
+    }
+    .pher_ser_main_head{
+        position: relative;
+        display: inline-block;
+    }
+    .pher_ser_main_head{
+        font-size: 24px !important;
+    }
+    .sur_head_page{
+        padding-top: 80px;
+     }
+     .pher_txt p{
+        line-height: 30px;
+     }
+ 
+
+}  
