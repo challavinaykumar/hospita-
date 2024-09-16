@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Arterial.css'
 import Imagesec from '../Dropdown/Imagesec';
-import Rating from '../Dropdown/Rating';
+// import Rating from '../Dropdown/Rating';
 import Mainfooter from '../Mainfooter';
 import Surgeries from '../Dropdown/Surgeries';
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Cardiovascular.css'
-import Rating from './Rating';
+// import Rating from './Rating';
 import Mainfooter from '../Mainfooter';
 import CountUpSection from './Count';
 import Surgeries from './Surgeries';

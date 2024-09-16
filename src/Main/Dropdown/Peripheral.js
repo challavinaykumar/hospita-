@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Peripheral.css'
 import CountUpSection from './Count';
 import Mainfooter from '../Mainfooter';
-import Rating from './Rating';
+// import Rating from './Rating';
 import Surgeries from './Surgeries';
 
 const Peripheral = () => {

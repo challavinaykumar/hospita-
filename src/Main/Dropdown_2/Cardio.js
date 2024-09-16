@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Imagesec from '../Dropdown/Imagesec';
-import Rating from '../Dropdown/Rating';
+// import Rating from '../Dropdown/Rating';
 import Mainfooter from '../Mainfooter';
 import Surgeries from '../Dropdown/Surgeries';
 import './Cardio.css'

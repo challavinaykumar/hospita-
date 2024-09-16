@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Pulmonology.css'
 import CountUpSection from './Count';
-import Rating from './Rating';
+// import Rating from './Rating';
 import Mainfooter from '../Mainfooter';
 import Surgeries from './Surgeries';
 

@@ -9,7 +9,7 @@ import Insurance from "./Insurance";
 import Asian from "../Images/AsianVascularHospitals.jpg"
 import praveen from "../Images/Dr G V Praveen Kumar.jpg"
 import { Link } from "react-router-dom";
-import narayana from '../Images/narayana.jpeg'
+// import narayana from '../Images/narayana.jpeg'
 
 // import praveen_kumar from '../Images/Our_doctors/Dr. G.V. Praveen Kumar.png'
 
